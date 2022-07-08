@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            background-color: aquamarine;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            text-align: center;
+            background-color: blue;
+        }
+        a{
+            text-decoration: none;
+        }
+        h2{
+            background-color: aqua;
+        }
+        p{
+            text-align: justify;
+        }
+        article > p{
+            background-color: white;
+            border-radius: 20px;
+            padding: 20px;
+        }
+        article > aside{
+            background-color: lightgray;
+        }
+        footer >p {
+            background-color: black;
+            color: white;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <p><a href="#">link</a></p>
+            <p><a href="#">link</a></p>
+            <p><a href="#">link</a></p>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Politica Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt nostrum eos consectetur dolorem similique laborum necessitatibus id natus, consequuntur hic deserunt omnis maxime nobis praesentium commodi? Ea asperiores voluptates velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis provident aut, animi obcaecati incidunt delectus ad voluptatum praesentium quaerat dolorem, tempore quo perferendis fuga odio totam rerum nobis illo consequuntur.</p>
+                <aside>
+                    <p>Escrito por compiuter</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Feito por Lucas Hebmuller</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
