@@ -9,3 +9,7 @@ header{
 header > h1{
     font: bolder 3em Arial, Helvetica, sans-serif;
 }
+header > a{
+    color: white;
+    text-decoration: none;
+}
