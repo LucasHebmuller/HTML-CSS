@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas grandes</title>
+
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 500px;
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead,tfoot{
+            background-color: gray;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+
+    <table>
+
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>Populacao</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Sao Paulo</td>
+                <td>46 649 132</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td>11 466 630</td>
+            </tr>
+            <tr>
+                <td>Para</td>
+                <td>8 777 124</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th>Total de Habitantes</th>
+                <td>66 892 886</td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+</body>
+</html>
